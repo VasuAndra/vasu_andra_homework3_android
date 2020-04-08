@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/DateTimeFragment"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="6dp">
+
+
+    <Button
+        android:id="@+id/timeBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_shape"
+        android:padding="15dp"
+        android:text="Time"
+        android:textColor="@drawable/button_selector" />
+
+    <Button
+        android:id="@+id/dateBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_shape"
+        android:padding="15dp"
+        android:text="Date"
+        android:textColor="@drawable/button_selector" />
+
+    <Button
+        android:id="@+id/alarmBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_shape"
+        android:padding="15dp"
+        android:text="Alarm"
+        android:textColor="@drawable/button_selector" />
+
+    <TextView
+        android:id="@+id/timeTV"
+        android:layout_width="220dp"
+        android:layout_height="70dp"
+        android:layout_margin="10dp"
+        android:text="time" />
+
+    <TextView
+        android:id="@+id/dateTV"
+        android:layout_width="220dp"
+        android:layout_height="70dp"
+        android:layout_margin="10dp"
+        android:text="date" />
+
+    <Button
+        android:id="@+id/closeDateTimeFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_shape"
+        android:padding="15dp"
+        android:text="Close fragment"
+        android:textColor="@drawable/button_selector" />
+</LinearLayout>
